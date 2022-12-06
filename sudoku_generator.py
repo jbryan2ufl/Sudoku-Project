@@ -50,7 +50,7 @@ class SudokuGenerator:
     def print_board(self):
         for i in range(0, self.row_length):
             for j in range(0, self.row_length):
-                print(self.board[i][j], end='')
+                print(self.board[i][j], end=' ')
             print("")
 
     '''
