@@ -1,7 +1,6 @@
 from constants import *
 import pygame, board
 
-
 class Label():
     '''
 	Creates a label object which can be rendered to the screen
