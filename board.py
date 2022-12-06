@@ -104,7 +104,7 @@ class Board():
 	Return: None
     '''
     def clear(self):
-        if self.orig_board[self.selected_cell.row][self.selected_cell.col] == 0:
+        if self.orig_board[self.selected_cell.row][self.selected_cell.col] == 0 and (self.selected_cell.value != 0 or self.selected_cell.sketch_value != 0):
             self.selected_cell.value = 0
             self.selected_cell.sketch_value = 0
             self.count -= 1
